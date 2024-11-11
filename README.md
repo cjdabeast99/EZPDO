@@ -27,7 +27,7 @@ $sql = "SELECT * FROM users;
 $records = $db->PDOArr($sql);
 
 foreach($records as $record){
-    echo "[$record[uid]]: $record[username]<br/>";
+    echo "[$record[uid]]: $record[username]";
 }
 
 /* Returns:
